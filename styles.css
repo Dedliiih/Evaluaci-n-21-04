@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    font-family: Inter;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 12vh;
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-image-container {
+    height: 100%;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.header-image-container > img {
+    width: 100%;
+}
+
+.hero {
+    height: 50vh;
+    display: flex;
+    padding: 4rem 5rem 3rem 5rem;
+    background-image: url(/assets/img/resort-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.hero-text {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 5rem;
+    max-width: 320px;
+
+}
+
+.hero-main-text > p {
+  font-size: 60px;
+}
+
+.hero-main-text > span {
+    font-size: 50px;
+}
+
+.hero-main-first-text {
+    margin-bottom: -12px;
+}
+
+.hero-main-third-text {
+    margin-bottom: -12px;
+    margin-top: -12px;
+}
+
+.hero-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: aliceblue;
+    max-width: 19rem;
+}
+
+.hero-form > h5 {
+    text-align: center;
+}
+
+.hero-form > input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.hero-form-terms {
+    margin-bottom: 8px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.checkbox-container > input {
+    margin-right: 8px;
+}
+
+.hero-form-button {
+    margin-top: 12px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    font-weight: 700;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.product-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.product-description {
+    font-weight: 700;
+    align-items: center;
+    width: 56rem;
+    text-align: center;
+}
+
+.product-detail {
+    text-align: center;
+}
+
+.product-detail > h5 {
+    color: blue;
+    font-size: 1rem;
+}
+
+.product-images {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.product-button-container {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 16rem;
+}
+
+.product-button-container > button {
+    padding: 12px;
+    background-color: red;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    width: 100%;
+}
+
+.product-button-container > img {
+    margin-top: 20px;
+    width: 48px;
+    height: 48px;
+}
+
+footer {
+    width: 100%;
+    background-color: gainsboro;
+    margin-top: 120px;
+    padding: 1rem 20rem 1rem 20rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-content > img {
+    margin-right: 50px;
+}
+
+.footer-content-text {
+    width: 50rem;
+    text-align: center;
+}
+
+.ambassador-data > p {
+    margin-top: 0;
+}
+
+.bored-text {
+    padding: 1rem 20rem 1rem 20rem;
+    text-align: center;
+    color: gray;
+}
